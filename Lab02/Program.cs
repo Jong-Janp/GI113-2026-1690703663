@@ -119,6 +119,60 @@ namespace Lab02
             Console.WriteLine($"AP: {currentIq} / {maxIq}");
             iqPercent = currentIq * 100 / maxIq;
             Console.WriteLine($"AP Precent: {iqPercent}%");
+
+                        string rName = "Sicx";
+            char masteries = 'S';
+            int maxSkill = 1000;
+            int skill = 240;
+            int currentSkill = 175;
+            float sanity = 0.6f;
+            double skillMultiplier = 20;
+            bool isRobot = true;
+            Console.WriteLine("===== BOSS STATUS: INITIAL =====");
+            Console.WriteLine($"Name: {rName}");
+            Console.WriteLine($"masteries: {masteries}");
+            Console.WriteLine($"MaxSkill: {maxSkill}");
+            Console.WriteLine($"Skill: {skill}");
+            Console.WriteLine($"Range: {currentSkill}");
+            Console.WriteLine($"skillMultiplier: {skillMultiplier}");
+            Console.WriteLine($"IsRobot: {isRobot}");
+            Console.WriteLine();
+            int skillPercent = currentSkill * 100 / maxSkill;
+            Console.WriteLine($"Skill percent: {skillPercent}%");
+            Console.WriteLine();
+            currentSkill = currentSkill * 60;
+            Console.WriteLine();
+            Console.WriteLine("===== BOSS STATUS: AFTER DAMAGE =====");
+            Console.WriteLine($"Skill: {currentSkill} / {maxSkill}");
+            skillPercent = currentSkill * 100 / maxSkill;
+            Console.WriteLine($"Skill Precent: {skillPercent}%");
+
+            string someName = "Tonne";
+            char stats = 'A';
+            int hp = 1000;
+            int maxAttackRange = 240;
+            int currentAttackRange = 175;
+            float damage = 0.6f;
+            double critRate = 20;
+            bool isTrue = true;
+            Console.WriteLine("===== BOSS STATUS: INITIAL =====");
+            Console.WriteLine($"Name: {someName}");
+            Console.WriteLine($"stats: {stats}");
+            Console.WriteLine($"hp: {hp}");
+            Console.WriteLine($"MaxAttackRange: {maxAttackRange}");
+            Console.WriteLine($"AttackRange: {currentAttackRange}");
+            Console.WriteLine($"Critchance: {critRate}");
+            Console.WriteLine($"IsTrue: {isTrue}");
+            Console.WriteLine();
+            int AttackRangepercent = currentAttackRange * 100 / maxAttackRange;
+            Console.WriteLine($"AttackRange percent: {AttackRangepercent}%");
+            Console.WriteLine();
+            currentAttackRange = currentAttackRange * 60;
+            Console.WriteLine();
+            Console.WriteLine("===== BOSS STATUS: AFTER DAMAGE =====");
+            Console.WriteLine($"AttackRange: {currentAttackRange} / {maxAttackRange}");
+            AttackRangepercent = currentAttackRange * 100 / maxAttackRange;
+            Console.WriteLine($"AttackRange Precent: {AttackRangepercent}%");
         }
     }
 }
