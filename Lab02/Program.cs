@@ -66,6 +66,59 @@ namespace Lab02
             APPercent = currentAP * 100 / maxAP;
             Console.WriteLine($"AP Precent: {APPercent}%");
 
+            string name = "Xas";
+            char AD = 'A';
+            int maxAD = 1000;
+            int currentAD = 240;
+            int luck = 175;
+            float DPS = 0.6f;
+            double luckMultiplier = 20;
+            bool isHumanoid = true;
+            Console.WriteLine("===== BOSS STATUS: INITIAL =====");
+            Console.WriteLine($"Name: {name}");
+            Console.WriteLine($"Speed: {AD}");
+            Console.WriteLine($"MaxAP: {maxAD}");
+            Console.WriteLine($"AP: {currentAD}");
+            Console.WriteLine($"Range: {luck}");
+            Console.WriteLine($"Critchance: {DPS}");
+            Console.WriteLine($"Isboss: {isHumanoid}");
+            Console.WriteLine();
+            int ADPercent = currentAD * 100 / maxAD;
+            Console.WriteLine($"AP percent: {ADPercent}%");
+            Console.WriteLine();
+            currentAD = currentAD * 60;
+            Console.WriteLine();
+            Console.WriteLine("===== BOSS STATUS: AFTER DAMAGE =====");
+            Console.WriteLine($"AP: {currentAD} / {maxAD}");
+            ADPercent = currentAD * 100 / maxAD;
+            Console.WriteLine($"AP Precent: {ADPercent}%");
+
+            string pName = "Xavos";
+            char power = 'F';
+            int iq = 1000;
+            int currentIq = 240;
+            int maxIq = 175;
+            float brainSpeed = 0.6f;
+            double brainPower = 20;
+            bool isHuman = true;
+            Console.WriteLine("===== BOSS STATUS: INITIAL =====");
+            Console.WriteLine($"Name: {pName}");
+            Console.WriteLine($"Speed: {power}");
+            Console.WriteLine($"MaxAP: {iq}");
+            Console.WriteLine($"AP: {currentIq}");
+            Console.WriteLine($"Range: {maxIq}");
+            Console.WriteLine($"Critchance: {brainSpeed}");
+            Console.WriteLine($"Isboss: {isHuman}");
+            Console.WriteLine();
+            int iqPercent = currentIq * 100 / maxIq;
+            Console.WriteLine($"AP percent: {iqPercent}%");
+            Console.WriteLine();
+            currentIq = currentIq * 60;
+            Console.WriteLine();
+            Console.WriteLine("===== BOSS STATUS: AFTER DAMAGE =====");
+            Console.WriteLine($"AP: {currentIq} / {maxIq}");
+            iqPercent = currentIq * 100 / maxIq;
+            Console.WriteLine($"AP Precent: {iqPercent}%");
         }
     }
 }
